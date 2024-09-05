@@ -1,0 +1,28 @@
+:root {
+    --dark-1000: #000;
+
+    --teal-500: #14b8a6;
+    --teal-500-rgb: 20, 184, 166;
+
+    --gunmetal-900: #14242a;
+
+    --ghost-white-300: #f1f3f9;
+
+    --cadet-gray-500: #799aa9;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--dark-1000);
+    color: var(--ghost-white-300);
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    margin: 0 2.5em;
+}

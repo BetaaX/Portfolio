@@ -1,0 +1,40 @@
+.App {
+    height: 100vh;
+}
+
+.MainContent {
+    z-index: 2;
+    position: fixed;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.MainContent h1 {
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    font-size: 3.75em;
+}
+
+.MainContent h2 {
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    font-size: 6.25em;
+    font-style: italic;
+    color: var(--teal-500);
+}
+
+.CodeIcon {
+    z-index: 1;
+    position: absolute;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
